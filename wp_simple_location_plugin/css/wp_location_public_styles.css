@@ -1,0 +1,83 @@
+/* Make image borders rounded */
+.wp-block-post-featured-image.alignwide img {
+    border-radius: 10px;
+}
+
+/* Remove the space from the top of the image text and reduce its font-weight and font-size */
+.wp-block-post-title {
+   display: inline;
+   font-weight: 300 !important;
+   font-size: 10px;
+}
+
+/* Make the image text to align to the center. */
+.wp-block-group {
+    text-align: center;
+}
+
+/* Remove Italics from blog title and increase its weight */
+.wp-block-site-title {
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Change the color of the block title link fro black to reddish */
+.wp-block-site-title a {
+   color: #cf2e2e !important;
+}
+
+/* Change reddish colours on selected links to blue. */
+.wp-elements-dfb0a0589aeaba8192423a2728a6b6a0 a, .wp-elements-104e35a5e6ab9d94d7d4dcb8c5cc094c a {
+   color: #8abdd7 !important;
+}
+
+/* Change the header background color from black to a shade of blue. */
+.has-foreground-background-color {
+    background-color: #67a2a7 !important;
+    height: 25em;
+}
+
+/* Hide the form label value. */
+.wp-block-search__label {
+   display: none;
+}
+
+/* Highlight the nabar with a background color */
+.wp-block-navigation ul {
+    padding: 8px !important;
+    color: #8abdd7;
+    border: 1px solid white;
+    background-color: white;
+    font-weight: 800;
+}
+
+/* Move the logo to the center of the page. */
+.wp-block-site-title {
+   text-align: center;
+}
+
+/* Remove border radius from search input and search button */
+.wp-block-search__input {
+   border-radius: unset !important;
+}
+
+.wp-block-search__button {
+   border-radius: unset !important;
+   background-color: #ed5824 !important;
+   font-weight: 700;
+}
+
+/* Make a space between the search form and the main body. */
+.wp-block-search__inside-wrapper {
+   padding-bottom: 30px;
+}
+
+/* Reduce the header image height */
+wp-block-image {
+    height: 7em;
+}
+
+/* Trim off the white space between the header and the main body */
+.has-foreground-color {
+    margin-top: 0;
+}
