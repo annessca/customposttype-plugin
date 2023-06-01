@@ -1,0 +1,16 @@
+I noticed that it was not stated whether the custom taxonomies would be Hierarchical or Non-Hierarchical
+
+It was also not clear if the required category taxonomy should have been made to fall under the inbuilt WordPress category.
+
+I'm curious to know why the assessment had to contain so many parts. 
+
+
+TIME ESTIMATED : 4 days because of other engagements and employment tests that I had to do.
+ACTUAL TIME SPENT: 20th - 28th March 2023
+FROM 2nd - 5th April: Spent researching and fixing errors. At some point, I slowed down and took my time because I figured you have already moved on with another candidate.
+
+
+NOTE: I used Wordpress 6.1.1 
+The latest WordPress was released on the 28th of March 2023. The site automatically updated itself and broke a few things. To get the best of this plugin, please stick to WordPress version 6.1.1
+
+Place `define( 'WP_AUTO_UPDATE_CORE', false );` in wp-config.php to prevent any automatic updates.
